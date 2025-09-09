@@ -1,0 +1,24 @@
+{
+  "name": "harms",
+  "version": "1.0.0",
+  "description": "Healthcare Appointment & Resource Management System",
+  "scripts": {
+    "start": "./start.sh",
+    "backend": "cd backend && python app.py",
+    "frontend": "cd frontend && npm start",
+    "install-backend": "cd backend && pip install -r requirements.txt",
+    "install-frontend": "cd frontend && npm install",
+    "install-all": "npm run install-backend && npm run install-frontend",
+    "init-db": "cd backend && python init_db.py"
+  },
+  "keywords": [
+    "healthcare",
+    "appointment",
+    "management",
+    "react",
+    "flask",
+    "mysql"
+  ],
+  "author": "HARMS Development Team",
+  "license": "MIT"
+}
